@@ -1,0 +1,344 @@
+@import url('http://fonts.cdnfonts.com/css/bauhaus-93');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+a:link, a:visited, a:active {
+    text-decoration:none;}
+
+button {
+  border: none; /*PARA QUITAR LOS BORDES DE LOS BOTONES*/}
+
+#header .imagen_logo {
+  padding-left: 1700px;
+  padding-top: 15px;}
+
+#header .logo {
+    padding-left: 1700px;/*correr el logo a la izquierda*/}
+
+#header .botones_inicio {
+  padding-left: 150px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  float: left; /*poder alinear todo el contenido dentro del header*/}
+
+
+
+/*__________________BTN1_____________________*/
+.btn1{
+    font-size: 35px; 
+    background-color: #E94E1A;  
+    margin-right: 20px;
+    width: 200px;
+    height: 55px;}
+
+.txt_btn1 {
+  color: #FFFFFF;}
+/*____________________________________________*/
+
+/*__________________BTN3_____________________*/
+ .btn3{
+  font-size: 35px; 
+  background-color: #E30613;
+  margin-left: 20px; 
+  width: 200px; 
+  height: 55px;}
+
+ .txt_btn3 {
+color: #FFFFFF;}
+/*____________________________________________*/
+
+/*___________________BTN 2 DESPLEGABLE__________________*/
+ .btn2 {
+  font-size: 35px;
+  background-color: #009FE3;
+  width: 250px;
+  height: 55px;}
+
+ .txt_btn2 {
+  color: #FFFFFF;}
+
+/*modificaciones color boton desplegable 1*/
+.dropdown .desplegable_1 {
+  background-color: #E94E1A;
+  text-align: center;}
+
+.dropdown .txt_desplegable1 {
+  font-size: 30px;
+  color: #FFFFFF;}
+
+/*modificaciones color boton desplegable 2*/
+.dropdown .desplegable_2 {
+  background-color: #009FE3;
+  text-align: center;}
+
+.dropdown .txt_desplegable2 {
+  color: #FFFFFF;
+  font-size: 30px;}
+
+/*modificaciones color boton desplegable 3*/
+.dropdown .desplegable_3 {
+  background-color: #E30613;
+  text-align: center;}
+
+.dropdown .txt_desplegable3 {
+  font-size: 30px;
+  color: #FFFFFF;}
+
+.dropdown {
+    display: inline-block;
+    position: relative;}
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);}
+    
+  .dropdown:hover .dropdown-content {
+    display: block;}
+
+  .dropdown-content a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;}
+
+  .dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: #00A4BD;}
+/*_____________________________________*/
+
+
+/*___________Carrusel imagenes suspensióm ___________*/
+
+.carrusel {
+    display: flex;
+    flex-direction: row;    
+}
+
+.carousel-indicators {  
+  margin-bottom: 10px; 
+}
+
+.carousel-inner {
+    width: 1000px;    
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 80px;
+}
+
+.carousel-indicators [data-bs-target]  {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;  
+}
+
+.superiorsuntour {
+  margin-left: 380px; /*posicion imagen*/} 
+
+.iconossuntour {
+
+  margin-left: 150px;}
+
+
+.textocarrusel h1{
+  font-size: 150px;  
+  text-align: right;
+  margin-right: 180px;
+  font-family: 'Bauhaus 93', sans-serif;
+  color: #009FE3;
+}
+.textocarrusel p {
+  font-size: 50px;
+  margin-left: 30px;
+  margin-right: 180px;
+  text-align: justify;
+  font-family: 'Inter', sans-serif;}
+
+
+  /*______________TECNOLOGÍAS____________*/
+
+.tecnologias_suntour {
+  display: flex;}
+
+.tecnologias_suntour img {
+  margin-right: 150px;
+  margin-top: 100px;
+  margin-left: 200px;}
+
+
+.tecnologias_suntour h1 {
+  font-size: 150px;
+  margin-left: 80px;
+  font-family: 'Bauhaus 93', sans-serif;
+  color: #009FE3;}
+
+  .tecnologias_suntour h2 {
+  font-size: 70px;
+  margin-left: 80px;
+  *margin-right: 180px;
+  text-align: justify;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  padding-bottom: 20px;
+  padding-top: 20px;}
+
+.tecnologias_suntour p {
+  font-size: 50px;
+  margin-left: 80px;
+  *margin-right: 400px;
+  text-align: justify;
+  font-family: 'Inter', sans-serif;
+  padding-top: 20px;}
+
+  /*___________PRECIOS___________*/
+
+  .precios {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    *flex-direction: row;
+    justify-content: space-between;
+
+  }
+
+  .precio_desde_suntour {
+    text-align: center;
+    width:400px ;
+    height: 500px;
+    margin-left: 70px;
+    box-shadow: 5px 5px 5px 5px grey;
+  }
+
+  .texto_desde {
+    padding-top: 20px;
+  }
+
+  .texto_desde h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 55px;
+    background-color: #009FE3;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+  }
+
+  .texto_desde h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 45px;
+    margin-bottom: 30px;
+  }
+
+  .texto_desde img {
+    margin-bottom: 20px;
+  }
+
+  .texto_desde p{
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+  }
+
+.imagen_precios {
+  margin-top: 150px;}
+
+  .precio_hasta_suntour {    
+    text-align: center;
+    width:400px ;
+    height: 500px;   
+    box-shadow: 5px 5px 5px 5px grey;
+    *margin-right: 550px;
+  }
+
+  .texto_hasta {
+    padding-top: 20px;
+  }
+
+  .texto_hasta h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 55px;
+    background-color: #009FE3;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+  }
+
+  .texto_hasta h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 45px;
+    margin-bottom: 30px;
+  }
+
+  .texto_hasta img {
+    margin-bottom: 20px;
+    
+  }
+
+  .texto_hasta p{
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+  }
+
+
+.precios_logo{
+  text-align: center;
+  margin-right: 250px;
+}
+.precios_logo h1 {
+  
+  font-size: 150px;  
+  font-family: 'Bauhaus 93', sans-serif;
+  color: #009FE3;
+  margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*FOOTER*/
+footer {
+    background-color: #000000;
+    width: 100%;
+    height: 250px;
+    margin-bottom: -25px;
+    padding-top: 40px;}   
+
+  .info_footer {
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 0px;}
+
+  .idioma {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 20px;
+    margin-bottom: 0px;}
+  
+  .contacto {
+    float: right;
+    justify-content: space-between;
+    display: flex;
+    width: 300px;
+    height: 300px;
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-top: 20px;
+    margin-bottom: 0px;}
+  
+  hr {
+    margin-top: 50px;
+    margin-bottom: 50px;}
