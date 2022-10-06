@@ -1,146 +1,264 @@
 # Documentación Página web tributo WIB ¿Wich one is better? 
-## Desarrollado por: Cristian Camilo Betancourt Rincon 
+*Desarrollado por: Cristian Camilo Betancourt Rincon* 
 
-Página realizada con HTML y CSS utilizando el IDE Visual Studio Code. 
-Extensiones utilizadas: Live server, Html format, Html preview, Htmls Snippets. Html CSS Support.
+Página realizada con HTML y Css utilizando el IDE Visual Studio Code
+
+### Extensiones utilizadas: 
+* Live server
+* Html format
+* Html preview
+* Htmls Snippets
+* Html CSS Support.
 
 
 ## Estructura principal: 
-<head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-      <link rel="stylesheet" href="/Css/style.css">
-      <title>Wich One Is Better</title>
-    <link rel="icon" type="image/x-icon" href="/img/WIBlogo.png">
-  </head>
+```bash
+
+	<head>
+	      <meta charset="UTF-8">
+	      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+	      <link rel="stylesheet" href="/Css/style.css">
+	      <title>Wich One Is Better</title>
+	      <link rel="icon" type="image/x-icon" href="/img/WIBlogo.png">
+  	</head>
+ 
+ ```
 
 
 
-<h1 align="center">
-  <br>
-  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.png" alt="Markdownify" width="200"></a>
-  <br>
-  Markdownify
-  <br>
-</h1>
+> ## *Nota*
+> * Se define la etiqueta Lang = es para mejorar los servicios de automatización y para que se reconozca el lenguaje utilizado. 
+> * Se integran las etiquetas de compatibilidad preestablecidas del navegador X UA compatible. 
+> * Se adjunta el enlace a las librerías de Bootstrap utilizadas (bootstrap)
+> * Le linkea el documento con la pagina de css que va a alterar directamente el contenido. <link reel= “stylesheet”>
+> * Se genera el titulo que se va a mostrar en la pestaña con <title>
+> * Se adjunta el icono que se muestra en la pestaña con <link reel =”icon” 
 
-<h4 align="center">A minimal Markdown Editor desktop app built on top of <a href="http://electron.atom.io" target="_blank">Electron</a>.</h4>
 
-<p align="center">
-  <a href="https://badge.fury.io/js/electron-markdownify">
-    <img src="https://badge.fury.io/js/electron-markdownify.svg"
-         alt="Gitter">
-  </a>
-  <a href="https://gitter.im/amitmerchant1990/electron-markdownify"><img src="https://badges.gitter.im/amitmerchant1990/electron-markdownify.svg"></a>
-  <a href="https://saythanks.io/to/bullredeyes@gmail.com">
-      <img src="https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg">
-  </a>
-  <a href="https://www.paypal.me/AmitMerchant">
-    <img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=flat">
-  </a>
-</p>
+## Footer
+```bash
+                                                               
+    <footer>
+      <div class="info_footer">
+        <div class="idioma"> <img src="/img/footer lenguaje.png" alt="" width="300px" height="" class="bandera"></div>
+        <div class="img_desarrollador"> <img src="/img/footer marca.png" alt="" width="400px"></div>
+        <div class="contacto">
+          <a href="https://www.facebook.com/cbetancourtrincon1"><img src="/img/footer contacto.png" alt="" width="100px" height="80px"></a>
+          <a href="https://github.com/CrisCaBeRi"><img src="/img/footer contacto 1.png" alt="" width="100px" height="80px"></a>
+          <a href="https://api.whatsapp.com/send?phone=573123679015&text=Hola, ví tu página web y me interesan tus servicios de desarrollador."><img src="/img/footer contacto 2.png" alt="" width="100px" height="80px"></a>
+        </div>
+      </div>
+    </footer>
+ ```
+ > ## *Nota* 
+> * Se crea la sección <footer> 
 
-<p align="center">
-  <a href="#key-features">Key Features</a> •
-  <a href="#how-to-use">How To Use</a> •
-  <a href="#download">Download</a> •
-  <a href="#credits">Credits</a> •
-  <a href="#related">Related</a> •
-  <a href="#license">License</a>
-</p>
+> * Se crea un div con la clase intro footer que va a contener diferentes imágenes distribuidas horizontalmente 
 
-![screenshot](https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.gif)
+> * Dentro del div intro footer, se generan 3 div aparte que contienen diferentes imágenes, el último div contiene 3 imágenes con link de hipervínculo que conducen a Facebook, GitHub y WhatsApp, el ultimo abre el hipervínculo y muestra un mensaje preestablecido. 
 
-## Key Features
+## Links a librerías de Bootstrap 
+```bash
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+```
+> ## *Nota* 
+> * Se copian las rutas de la página de Bootstrap para los elementos preestablecidos que van a ser usados y se pegan en la parte final del documento por fuera de la etiqueta </html>
 
-* LivePreview - Make changes, See changes
-  - Instantly see what your Markdown documents look like in HTML as you create them.
-* Sync Scrolling
-  - While you type, LivePreview will automatically scroll to the current location you're editing.
-* GitHub Flavored Markdown  
-* Syntax highlighting
-* [KaTeX](https://khan.github.io/KaTeX/) Support
-* Dark/Light mode
-* Toolbar for basic Markdown formatting
-* Supports multiple cursors
-* Save the Markdown preview as PDF
-* Emoji support in preview :tada:
-* App will keep alive in tray for quick usage
-* Full screen mode
-  - Write distraction free.
-* Cross platform
-  - Windows, macOS and Linux ready.
-
-## How To Use
-
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+## Header 
 
 ```bash
-# Clone this repository
-$ git clone https://github.com/amitmerchant1990/electron-markdownify
-
-# Go into the repository
-$ cd electron-markdownify
-
-# Install dependencies
-$ npm install
-
-# Run the app
-$ npm start
+<header>
+  <div id="header">
+    <div class="botones_inicio">
+      <button class="btn1"> <a href="/principal.html"><div class = txt_btn1>Inicio</div> </a></button>
+        <div class="dropdown">
+          <button class = "btn2"><div class = txt_btn2>Suspensiones</div></button>
+              <div class="dropdown-content">
+                <div class=" desplegable_1"><a href="/suntour.html"><div class="txt_desplegable1">Suntour</div></a></div>
+                <div class=" desplegable_2"><a href="/fox.html"><div class="txt_desplegable2">Fox</div></a></div>
+                <div class=" desplegable_3"><a href="/rockshox.html"><div class="txt_desplegable3">Rock Shox</div></a></div>					
+              </div>
+          </div>
+     <button class="btn3"> <a href="/foro.html"><div class = txt_btn3>Foro</div> </a></button>	
+	</div>
+	    <div class="imagen_logo"><img src="/img/WIBlogo.png" alt="" width="270px" ></div>			
+  </div>
+ </header>
 ```
+> ## *Nota* 
+> * Se crea la etiqueta header donde se alamacena el encabezado que consta de 3 botones y logo de la aplicación distribuidos de manera horizontal. 
+> * Se crea una etiqueta div que contiene todos los botones correspondientes. 
+> * Dentro de la etiqueta div s crean los botones btn1 y btn3 con los enlaces correspondientes. 
+> * Para el botón 2 se crea un div “dropdown” que contiene un botón general y otro div con sub- botones en forma desplegable, todos ellos con un hipervínculo correspondiente. 
+> * El ultimo div, contiene la imagen del logo. 
 
-> **Note**
-> If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
+## Contenido de las páginas 
+
+```bash
+<section class=" carrusel"> 
+	<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+		<div class="carousel-indicators">
+		  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+		  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+		  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+		  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+		</div>
+		<div class="carousel-inner">
+		  <div class="carousel-item active">
+			<img src="/img/carrusel_principal.png" width="100%" height="1080px" class="d-block" alt="...">			
+		  </div>
+		  <div class="carousel-item">
+			<img src="/img/carrusel suntour.png" width="100%" height="1080px" class="d-block " alt="...">
+			
+		  </div>
+		  <div class="carousel-item">
+				<img src="/img/carrusel fox.png" width="100%" height="1080px" class="d-block" alt="...">					
+			</div>
+			<div class="carousel-item">
+				<img src="/img/carrusel rock shox.png" width="100%" height="1080px" class="d-block" alt="...">					
+			</div>
+		</div>
+	  </div>	
+</section>
+```
+> ## *Nota* 
+> * Se crea la sección carrusel que almacena el elemento extraído de la librería de Bootstrap (este elemento consiste en un carrusel de fotografías que se desplazan de izquierda a derecha)
+> * Para cada elemento se crea un div aparte para que pueda ser modificado en posición.
+> * Las etiquetas buton se crean para poder navegar entre las imágenes del carrusel. 
+> * Las etiquetas de carrousel-inner y carrousel-item contienen las imágenes del carrusel con un ancho y alto establecido en 100% ancho y 1080 px de alto. 
 
 
-## Download
+```bash
+<hr>
+	<section class="especificacion">
+		<h1>Según especificación <br> técnica </h1>
+		<p>Comparativa de cada ítem <br> específico</p>
+		
+		<div class="imagenes_especificacion">
+			<img src="/img/tecnologias.png" alt="" width="500px" class="sombra" >		
+			<img src="/img/diseño.png" alt="" width="500px">
+			<img src="/img/precios.png" alt="" width="500px">
+		</div>
+	</section>
+<hr>
+	<section class="video">
+		<iframe width="80%" height="1000px" src="https://www.youtube.com/embed/sbajy7DzQcM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</section>
+```
+> ## *Nota* 
+> * La etiqueta hr se utiliza después de cualquier sección para dividir contenidos. 
+> * se crea la sección especificación que contiene un titulo h1 y una etiqueta de párrafo con contenido de texto. 
+> * Se crea la etiqueta de imagenes_especificacion para almacenar tres imágenes de forma horizontal
+> * Por último, se crea la sección de video donde se utiliza la etiqueta <iframe con el enlace del video y el tamaño establecido. 
 
-You can [download](https://github.com/amitmerchant1990/electron-markdownify/releases/tag/v1.2.0) the latest installable version of Markdownify for Windows, macOS and Linux.
+## Paginas Suntour, Fox y Rock Shox
+Se utiliza la misma estructura de código presentado a continuación, las únicas diferencias varían en las imágenes utilizadas y los textos. 
 
-## Emailware
+```bash
+<section class="carrusel"> 
+	<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+		<div class="carousel-indicators">
+		  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+		  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+		  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>		  
+		</div>
+		<div class="carousel-inner">
+		  <div class="carousel-item active">
+			<img src="/img/ROCK 1.png" width="100%" height="1080px" class="d-block" alt="...">			
+		  </div>
+		  <div class="carousel-item">
+			<img src="/img/ROCK 2.png" width="100%" height="1080px" class="d-block " alt="...">
+			
+		  </div>
+		  <div class="carousel-item">
+				<img src="/img/ROCK 3.png" width="100%" height="1080px" class="d-block" alt="...">					
+			</div>	
+		</div>
+	</div>	
+	<div class="textocarrusel">
+		<div class="imagen_texto">
+			<h1>32 SID ULTIMATE</h1>
+			<img src="/img/logo rock shox.png" alt="" class="superiorrock">
+		</div>
+		<p>Embalado en un chasis rígido y ligero de 35 mm, y equipado con el amortiguador de rendimiento más ligero que jamás hayamos fabricado: Charger™ Race Day. Perfectamente equilibrada para saciar tu necesidad de velocidad XC.</p>
+		<img src="/img/iconos_superiorROCK.png" alt="" class="iconosrock">
+	</div>	
 
-Markdownify is an [emailware](https://en.wiktionary.org/wiki/emailware). Meaning, if you liked using this app or it has helped you in any way, I'd like you send me an email at <bullredeyes@gmail.com> about anything you'd want to say about this software. I'd really appreciate it!
+</section>
+```
+> ## *Nota* 
+> * La sección de carrusel se utiliza de nuevo. En este caso se agrega una etiqueta div “textocarrusel” que contiene una imagen superior del logo de marca, un título y párrafo correspondiente y otra imagen al final. 
 
-## Credits
 
-This software uses the following open source packages:
+```bash
+<section class="tecnologias_fox">
+	<div class="textos_fox">
+		<h1>Tecnología</h1>
 
-- [Electron](http://electron.atom.io/)
-- [Node.js](https://nodejs.org/)
-- [Marked - a markdown parser](https://github.com/chjj/marked)
-- [showdown](http://showdownjs.github.io/showdown/)
-- [CodeMirror](http://codemirror.net/)
-- Emojis are taken from [here](https://github.com/arvida/emoji-cheat-sheet.com)
-- [highlight.js](https://highlightjs.org/)
+		<h2>DEBONAIR</h2>
+		<p>Cámara de aire desarrollada para una sensación suave como la mantequilla desde la parte superior, ahora optimizada para mantener una mayor altura de manejo y agregar más confianza en terreno técnico.</p>
 
-## Related
+		<h2>SAG GRADIENTS</h2>
+		<p>Ajuste de recorrido para los cartuchos SAF con el fin de evidenciar qué recorrido tiene la suspensión en práctica.</p>
 
-[markdownify-web](https://github.com/amitmerchant1990/markdownify-web) - Web version of Markdownify
+		<h2>MAXIMA PLUSH FLUID</h2>
+		<p>Integracion del aceite Maxima Plush Fluid diseñado para proteger del mugre, la fricción y el movimiento del damper.  </p>		
+			
+		<h2>BOOST SYSTEM </h2>
+		<p>Sistema de eje pasante con compatibilidad de 15m X 110 y 15 X 100 en ruedas 27.5 y 29”.</p>
 
-## Support
+		<h2>SKF SEALS </h2>
+		<p>Integraciópn de retenes de la más alta calidad sin perder suavidad ni funcionalidad. </p>
 
-<a href="https://www.buymeacoffee.com/5Zn8Xh3l9" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/purple_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
+		<h2>CHARGE RACE DAY DAMPER </h2>
+		<p>Sistema de bloqueo para finales de Sprint o subidas no técnicas. </p>
+	</div>
 
-<p>Or</p> 
+	<img src="/img/iconos_tecnologíaROCK.png" alt="imagen fox parte de abajo" height="2200px" >
+</section>
+```
+> ## *Nota* 
+> * Se crea la sección “tecnologías” que almacena una etiqueta div de textos; finalmente, se encuentra otra etiqueta img con una imagen correspondiente. 
+ 
+```bash
+<section class="precios">
+	<div class="precio_desde_fox">
 
-<a href="https://www.patreon.com/amitmerchant">
-	<img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
-</a>
+		<div class="texto_desde">
+			<h1>Desde</h1>
+			<h2>1.070,21€</h2>
+			<img src="/img/bandera-colombia.jpg" alt="" width="65px">
+			<h2>COP | 4.699.000</h2>
+			<p>Modelos 2022<br>RockShox SID SL <br> Ultimate 29"</p>
+		</div>
 
-## You may also like...
+	</div>
 
-- [Pomolectron](https://github.com/amitmerchant1990/pomolectron) - A pomodoro app
-- [Correo](https://github.com/amitmerchant1990/correo) - A menubar/taskbar Gmail App for Windows and macOS
+	<img src="/img/flechas ROCK.png" alt="" class="imagen_precios" width="300px" height="200px">
 
-## License
+	<div class="precio_hasta_suntour">
+		<div class="texto_hasta">
+			<h1>Hasta</h1>
+			<h2>1.415,71€</h2>
+			<img src="/img/bandera-colombia.jpg" alt="" width="65px">
+			<h2>COP | 6.215.990</h2>
+			<p>Modelos 2023 <br> Rockshox Sid Select <br>Charger Rl</p>
+		</div>
+	</div>
+	<div class="precios_logo">
+		<h1>Precios</h1>
+		<img src="/img/Precio ROCK.png" alt="">
+	</div>
+</section>
+```
+> ## *Nota* 
+> * Por último, se crea la sección precios que almacena 3 etiquetas div que alimentan contenido de texto párrafo e imágenes distribuidas en “precio desde” y “precio hasta”. 
+> * Dentro de la sección, también se encuentran una imagen correspondiente que divide los dos divs iniciales.  
 
-MIT
 
----
 
-> [amitmerchant.com](https://www.amitmerchant.com) &nbsp;&middot;&nbsp;
-> GitHub [@amitmerchant1990](https://github.com/amitmerchant1990) &nbsp;&middot;&nbsp;
-> Twitter [@amit_merchant](https://twitter.com/amit_merchant)
 
