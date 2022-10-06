@@ -1,4 +1,6 @@
 # Documentación Página web tributo WIB ¿Wich one is better? 
+> ![image](https://user-images.githubusercontent.com/108433878/194413137-948ead25-6d19-4435-a0ce-8b8840643f23.png)
+
 *Desarrollado por: Cristian Camilo Betancourt Rincon* 
 
 Página realizada con HTML y Css utilizando el IDE Visual Studio Code.
@@ -15,7 +17,6 @@ Página realizada con HTML y Css utilizando el IDE Visual Studio Code.
 
 ## Estructura principal: 
 ```bash
-
 	<head>
 	      <meta charset="UTF-8">
 	      <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,11 +26,7 @@ Página realizada con HTML y Css utilizando el IDE Visual Studio Code.
 	      <title>Wich One Is Better</title>
 	      <link rel="icon" type="image/x-icon" href="/img/WIBlogo.png">
   	</head>
- 
  ```
-
-
-
 > ## *Nota*
 > * Se define la etiqueta Lang = es para mejorar los servicios de automatización y para que se reconozca el lenguaje utilizado. 
 > * Se integran las etiquetas de compatibilidad preestablecidas del navegador X UA compatible. 
@@ -54,11 +51,11 @@ Página realizada con HTML y Css utilizando el IDE Visual Studio Code.
       </div>
     </footer>
  ```
- > ## *Nota* 
+> ![image](https://user-images.githubusercontent.com/108433878/194413691-5ec40d3c-9dc8-4c4b-85ac-4818ad7a221a.png)
+
+> ## *Nota* 
 > * Se crea la sección <footer> 
-
 > * Se crea un div con la clase intro footer que va a contener diferentes imágenes distribuidas horizontalmente 
-
 > * Dentro del div intro footer, se generan 3 div aparte que contienen diferentes imágenes, el último div contiene 3 imágenes con link de hipervínculo que conducen a Facebook, GitHub y WhatsApp, el ultimo abre el hipervínculo y muestra un mensaje preestablecido. 
 
 ## Links a librerías de Bootstrap 
@@ -91,6 +88,8 @@ Página realizada con HTML y Css utilizando el IDE Visual Studio Code.
   </div>
  </header>
 ```
+> ![image](https://user-images.githubusercontent.com/108433878/194413806-5dd72956-11b6-45e8-9f57-b3efccd577fe.png)
+
 > ## *Nota* 
 > * Se crea la etiqueta header donde se alamacena el encabezado que consta de 3 botones y logo de la aplicación distribuidos de manera horizontal. 
 > * Se crea una etiqueta div que contiene todos los botones correspondientes. 
@@ -127,12 +126,13 @@ Página realizada con HTML y Css utilizando el IDE Visual Studio Code.
 	  </div>	
 </section>
 ```
+> ![image](https://user-images.githubusercontent.com/108433878/194413935-130b111a-2247-4053-9428-1a36c99a1d5b.png)
+> 
 > ## *Nota* 
 > * Se crea la sección carrusel que almacena el elemento extraído de la librería de Bootstrap (este elemento consiste en un carrusel de fotografías que se desplazan de izquierda a derecha)
 > * Para cada elemento se crea un div aparte para que pueda ser modificado en posición.
 > * Las etiquetas buton se crean para poder navegar entre las imágenes del carrusel. 
 > * Las etiquetas de carrousel-inner y carrousel-item contienen las imágenes del carrusel con un ancho y alto establecido en 100% ancho y 1080 px de alto. 
-
 
 ```bash
 <hr>
@@ -151,6 +151,7 @@ Página realizada con HTML y Css utilizando el IDE Visual Studio Code.
 		<iframe width="80%" height="1000px" src="https://www.youtube.com/embed/sbajy7DzQcM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</section>
 ```
+> ![image](https://user-images.githubusercontent.com/108433878/194414075-9c7f26d5-0c64-4ec6-8a47-c50132ccf4ca.png)
 > ## *Nota* 
 > * La etiqueta hr se utiliza después de cualquier sección para dividir contenidos. 
 > * se crea la sección especificación que contiene un titulo h1 y una etiqueta de párrafo con contenido de texto. 
@@ -192,9 +193,9 @@ Se utiliza la misma estructura de código presentado a continuación, las única
 
 </section>
 ```
+> ![image](https://user-images.githubusercontent.com/108433878/194414481-ac158327-a995-49b9-a3b3-45da16fc2203.png)
 > ## *Nota* 
 > * La sección de carrusel se utiliza de nuevo. En este caso se agrega una etiqueta div “textocarrusel” que contiene una imagen superior del logo de marca, un título y párrafo correspondiente y otra imagen al final. 
-
 
 ```bash
 <section class="tecnologias_fox">
@@ -223,6 +224,7 @@ Se utiliza la misma estructura de código presentado a continuación, las única
 	<img src="/img/iconos_tecnologíaROCK.png" alt="imagen fox parte de abajo" height="2200px" >
 </section>
 ```
+> ![image](https://user-images.githubusercontent.com/108433878/194414557-6ed3b642-34f3-4927-8c43-187a66065d48.png)
 > ## *Nota* 
 > * Se crea la sección “tecnologías” que almacena una etiqueta div de textos; finalmente, se encuentra otra etiqueta img con una imagen correspondiente. 
  
@@ -257,6 +259,7 @@ Se utiliza la misma estructura de código presentado a continuación, las única
 	</div>
 </section>
 ```
+> ![image](https://user-images.githubusercontent.com/108433878/194414695-56efbde8-8ade-4b9a-bf08-dc468c38137e.png)
 > ## *Nota* 
 > * Por último, se crea la sección precios que almacena 3 etiquetas div que alimentan contenido de texto párrafo e imágenes distribuidas en “precio desde” y “precio hasta”. 
 > * Dentro de la sección, también se encuentran una imagen correspondiente que divide los dos divs iniciales.  
