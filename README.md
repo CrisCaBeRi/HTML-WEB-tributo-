@@ -1,7 +1,9 @@
 # Documentación Página web tributo WIB ¿Wich one is better? 
 *Desarrollado por: Cristian Camilo Betancourt Rincon* 
 
-Página realizada con HTML y Css utilizando el IDE Visual Studio Code
+Página realizada con HTML y Css utilizando el IDE Visual Studio Code.
+
+*La temática de la página tributo es sobre suspensiones de bicicleta, su tecnología, diseño y funcionamiento. Para ello, se han integrado diferentes apartados gráficos que permiten ver su diseño. Por otra parte se hace un recorrido específico por cada suspensión explicando cuáles son sus tecnologías ofrecidas y por último, se hace una comparativa de precios entre diferentes gamas de cada suspension. Adicionalmente, se ha diseñado un foro en el cual las personas podrán interactuar sobre sus experiencias usando cada suspensión.*
 
 ### Extensiones utilizadas: 
 * Live server
