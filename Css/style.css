@@ -9,32 +9,28 @@ button {
   border: none; /*PARA QUITAR LOS BORDES DE LOS BOTONES*/
 }
 
-#header .imagen_logo {
-  padding-left: 1700px;
-  padding-top: 15px; 
-  
+#header {
+  height: 110px;
 }
 
-#header .logo {
-    padding-left: 1700px;/*correr el logo a la izquierda*/
+.imagen_logo {
+  padding-left: 1200px;
+  padding-top: 15px; 
 }
 
 #header .botones_inicio {
   padding-left: 150px;
   padding-top: 50px;
-  padding-bottom: 30px;
   float: left; /*poder alinear todo el contenido dentro del header*/
 }
 
-
-
 /*__________________BTN1_____________________*/
 .btn1{
-    font-size: 35px; 
+    font-size: 25px; 
     background-color: #E94E1A;  
-    margin-right: 20px;
-    width: 200px;
-    height: 55px; 
+    margin-right: 10px;
+    width: 100px;
+    height: 50px; 
 
 }
 .txt_btn1 {
@@ -44,11 +40,11 @@ button {
 
 /*__________________BTN3_____________________*/
  .btn3{
-  font-size: 35px; 
+  font-size: 25px; 
   background-color: #E30613;
-  margin-left: 20px; 
-  width: 200px; 
-  height: 55px;
+  margin-left: 10px; 
+  width: 100px; 
+  height: 50px;
     
 }
  .txt_btn3 {
@@ -58,10 +54,10 @@ color: #FFFFFF;
 
 /*___________________BTN 2 DESPLEGABLE__________________*/
  .btn2 {
-  font-size: 35px;
+  font-size: 25px;
   background-color: #009FE3;
   width: 250px;
-  height: 55px;
+  height: 50px;
 }
  .txt_btn2 {
   color: #FFFFFF;
@@ -71,11 +67,9 @@ color: #FFFFFF;
 .dropdown .desplegable_1 {
   background-color: #E94E1A;
   text-align: center;
-  
-  
 }
 .dropdown .txt_desplegable1 {
-  font-size: 30px;
+  font-size: 20px;
   color: #FFFFFF;
 }
 
@@ -86,7 +80,7 @@ color: #FFFFFF;
 }
 .dropdown .txt_desplegable2 {
   color: #FFFFFF;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 /*modificaciones color boton desplegable 3*/
@@ -95,7 +89,7 @@ color: #FFFFFF;
   text-align: center;
 }
 .dropdown .txt_desplegable3 {
-  font-size: 30px;
+  font-size: 20px;
   color: #FFFFFF;
 }
 
@@ -133,11 +127,6 @@ color: #FFFFFF;
   height: 40px;
   border-radius: 50%;
   background-color: grey;
-}
-
-.carousel-item img{
-  object-fit: cover;
-  
 }
 
 /*SECTION ESPECIFICACION */
