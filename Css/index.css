@@ -1,0 +1,114 @@
+@import url("http://fonts.cdnfonts.com/css/bauhaus-93");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+header {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header img {
+  width: 50vw;
+}
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+.botones_inicio p {
+  color: white;
+  margin: 0;  
+}
+button {
+  border: none;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 100%;
+}
+.btn1 {
+  background-color: #e94e1a;
+}
+.btn3 {
+  background-color: #e30613;
+}
+.btn2 {
+  background-color: #009fe3;
+}
+.dropdown {
+  text-align: center;
+  display: inline-block; 
+  z-index: 1; 
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content .desplegable_1 {
+  background-color: #e94e1a;
+}
+.dropdown .desplegable_2 {
+  background-color: #009fe3;
+}
+.dropdown .desplegable_3 {
+  background-color: #e30613;
+}
+hr {
+  width: 90vw;
+  margin: 20px auto;
+}
+/*CARRUSEL*/
+.carousel-indicators [data-bs-target] { 
+  width: 4vw; 
+  background-color: grey;
+}
+/*SECTION ESPECIFICACION */
+.especificacion h1 {  
+  text-align: center;  
+  font-family: "Bauhaus 93", sans-serif;
+}
+.especificacion p { 
+  text-align: center;  
+  font-family: "Inter", sans-serif; 
+}
+.imagenes_especificacion {
+  display: flex; 
+  flex-direction: column;  
+  align-items: center;
+}
+.imagenes_especificacion img {
+  width: 70vw;
+  margin: 15px 0;
+  box-shadow: 3px 2px 15px -2px rgba(0,0,0,0.75);
+}
+/*VIDEO*/
+.video{
+  display: flex;
+  justify-content: center;
+}
+.video iframe {  
+  width: 90vw; 
+  height: 40vh; 
+  margin: 20px 0;
+}
+/*FOOTER*/
+footer {
+  background-color: #000000;
+  padding: 15px 0;
+}
+.info_footer {
+  display: flex;
+  flex-direction: column;
+}
+.info_footer img {
+  width: 50vw;
+  margin: auto;
+}
+.contacto {
+ display: flex; 
+ justify-content: center;
+}
+.contacto img {
+  width: 10vw;
+}
+
