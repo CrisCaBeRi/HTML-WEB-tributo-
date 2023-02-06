@@ -1,0 +1,189 @@
+@import url("http://fonts.cdnfonts.com/css/bauhaus-93");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+.carrusel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.carousel-indicators {
+  margin-bottom: 10px;
+}
+.carousel-inner {
+  width: 90vw;
+}
+.textocarrusel {
+  margin: 30px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.textocarrusel h1 {
+  font-size: 13vw;
+  text-align: right;
+  font-family: "Bauhaus 93", sans-serif;
+  color: #009fe3;
+}
+.textocarrusel p {
+  width: 80vw;
+  font-size: 3vw;
+  text-align: justify;
+  font-family: "Inter", sans-serif;
+}
+.textocarrusel img {
+  width: 70vw;
+}
+.tecnologias {
+  display: flex;
+  flex-direction: column;
+}
+.tecnologias_textos {
+  margin: auto;
+  width: 80vw;
+}
+.tecnologias h1 {
+  text-align: center;
+  font-family: "Bauhaus 93", sans-serif;
+  color: #009fe3;
+  font-size: 13vw;
+}
+.tecnologias h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 5vw;
+}
+.tecnologias p {
+  font-size: 3vw;
+  text-align: justify;
+  font-family: "Inter", sans-serif;
+}
+.tecnologias img {
+  margin: auto;
+  width: 60vw;
+}
+.precios {
+  margin-bottom: 30px;
+}
+.precios_logo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.precios_logo img {
+  width: 20vw;
+}
+.precios_logo h1 {
+  font-size: 13vw;
+  margin: 0;
+  font-family: "Bauhaus 93", sans-serif;
+  color: #009fe3;
+}
+.prices-comparative {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.card {
+  width: 35vw;
+  text-align: center;
+  padding-bottom: 15px;
+}
+.card_text h1 {
+  font-size: 4vw;
+  font-family: "Inter", sans-serif;
+  background-color: #009fe3;
+  color: #ffffff;
+}
+.card h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 3vw;
+}
+.card img {
+  margin-bottom: 20px;
+}
+.card p {
+  font-family: "Inter", sans-serif;
+}
+.imagen_precios {
+  width: 15vw;
+  height: 10vh;
+}
+@media screen and (min-width: 570px) {
+  .carrusel {
+    flex-direction: row;
+    margin: 0 5vw;
+    justify-content: center;
+  }
+  .carousel-inner {
+    width: 40vw;
+    margin-right: 8vw;
+  }
+  .carousel-indicators {
+    margin: 0;
+    width: 40vw;
+  }
+  .textocarrusel {
+    text-align: left;
+  }
+  .textocarrusel h1 {
+    width: 40vw;
+    font-size: 5vw;
+    margin: 0;
+  }
+  .textocarrusel p {
+    width: 40vw;
+    font-size: 1.5vw;
+  }
+  .textocarrusel img {
+    width: 40vw;
+  }
+  .tecnologias{
+    flex-direction: row;
+    align-items: center;
+    margin: 0 5vw;
+  }
+  .tecnologias_textos{
+    width: 40vw;
+  }
+  .tecnologias h1{
+    text-align: left;
+    font-size: 5vw;
+  }
+  .tecnologias h2 {
+    font-size: 2vw;
+  }
+  .tecnologias p {
+    font-size: 1.5vw;
+  }
+  .tecnologias img {
+    width: 20vw;
+  }
+  .precios {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 5vw 1vw 5vw;
+  }
+  .precios_logo h1{
+    font-size: 5vw;
+  }
+  .precios_logo img{
+    width: 10vw;
+  }
+  .card {
+    width: 15vw;
+    padding-bottom: 0.5vw;
+  }
+  .card_text h1{
+    font-size: 3vw;
+  }
+  .card h2 {
+    font-size:2vw;
+  }
+  .card p {
+    font-size: 1vw;
+  }
+  .imagen_precios{
+    width: 5vw;
+    height: 5vh;
+    margin: 0 2vw;
+  }
+}
+

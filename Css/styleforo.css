@@ -1,295 +1,196 @@
 @import url('http://fonts.cdnfonts.com/css/bauhaus-93');
-
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-
-a:link, a:visited, a:active {
-    text-decoration:none;
-}
-button {
-  border: none; /*PARA QUITAR LOS BORDES DE LOS BOTONES*/
-}
-
-#header {
-  height: 110px;
-}
-
-.imagen_logo {
-  padding-left: 1200px;
-  padding-top: 15px; 
-}
-
-#header .botones_inicio {
-  padding-left: 150px;
-  padding-top: 50px;
-  float: left; /*poder alinear todo el contenido dentro del header*/
-}
-
-/*__________________BTN1_____________________*/
-.btn1{
-    font-size: 25px; 
-    background-color: #E94E1A;  
-    margin-right: 10px;
-    width: 100px;
-    height: 50px; 
-
-}
-.txt_btn1 {
-  color: #FFFFFF;
-}
-/*____________________________________________*/
-
-/*__________________BTN3_____________________*/
- .btn3{
-  font-size: 25px; 
-  background-color: #E30613;
-  margin-left: 10px; 
-  width: 100px; 
-  height: 50px;
-    
-}
- .txt_btn3 {
-color: #FFFFFF;
-}
-/*____________________________________________*/
-
-/*___________________BTN 2 DESPLEGABLE__________________*/
- .btn2 {
-  font-size: 25px;
-  background-color: #009FE3;
-  width: 250px;
-  height: 50px;
-}
- .txt_btn2 {
-  color: #FFFFFF;
-}
-
-/*modificaciones color boton desplegable 1*/
-.dropdown .desplegable_1 {
-  background-color: #E94E1A;
-  text-align: center;
-}
-.dropdown .txt_desplegable1 {
-  font-size: 20px;
-  color: #FFFFFF;
-}
-
-/*modificaciones color boton desplegable 2*/
-.dropdown .desplegable_2 {
-  background-color: #009FE3;
-  text-align: center;
-}
-.dropdown .txt_desplegable2 {
-  color: #FFFFFF;
-  font-size: 20px;
-}
-
-/*modificaciones color boton desplegable 3*/
-.dropdown .desplegable_3 {
-  background-color: #E30613;
-  text-align: center;
-}
-.dropdown .txt_desplegable3 {
-  font-size: 20px;
-  color: #FFFFFF;
-}
-
-.dropdown {
-    display: inline-block;
-    position: relative;
-    
-  }
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    width: 100%;
-    overflow: auto;
-    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
-    
-  }
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  .dropdown-content a {
-    display: block;
-    color: #000000;
-    padding: 5px;
-    text-decoration: none;
-  }
-  .dropdown-content a:hover {
-    color: #FFFFFF;
-    background-color: #00A4BD;
-  }
-/*_____________________________________*/
-
 .foro_inicial {
-  text-align: center;}
-
-.txt_1 {
-  font-size: 100px;  
-  text-align: center;
-  font-family: 'Bauhaus 93', sans-serif;
-  color: #E94E1A;
-  
-}
-
-.txt_2 {
-  font-size: 80px;  
-  text-align: center;
-  font-family: 'Bauhaus 93', sans-serif;
-  color: #009FE3;
-  margin-top: -40px;
-}
-
-.txt_3 {
-  font-size: 60px;  
-  text-align: center;
-  font-family: 'Bauhaus 93', sans-serif;
-  color: #E30613;
-  margin-top: -20px;
-}
-
-.foro_inicial p {
-  font-size: 30px;  
-  text-align: center;
-  font-family: 'Inter', sans-serif;
-}
-
-/*_________Comparte tu experiencia_________*/
-
-.comparte_tu_experiencia {
-  text-align: center;
-  display: flex; /*centrar todos los elementos del padre*/
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.comparte_tu_experiencia h1 {
-  font-size: 100px;  
-  font-family: 'Bauhaus 93', sans-serif;
-  color: #E30613;
-}
-
-.comparte_tu_experiencia p {
-  font-size: 30px;  
-  text-align: center;
-  font-family: 'Inter', sans-serif;
-}
-
-.comentario {  
-  width: 1200px;
-  height: 400px;
-  background-color: #E30613;
-}
-
-.nombre_persona input{
-  margin-top: 50px;
-  margin-right: 700px;
-  font-size: 30px;
-  border-radius: 15px;
-  border-color: #FFFFFF;
-} 
-
-.descripcion  {
-  display: flex;
-}
-
-.descripcion textarea {
-  margin-top: 40px;
-  margin-right: 100px;
-  font-size: 30px;
-  border-radius: 15px;
-  margin-left: 150px;
-  border-color: #FFFFFF;
-}
-
-.comentario button {
-  border-radius: 150px;
-  background-color:#E30613 ;
-}
-
-.comentario button:hover {
-  background-color: #FFFFFF;
-}
-
-.ultimos_comentarios h1{
-  margin-left: 150px;
-  font-size: 100px;  
-  font-family: 'Bauhaus 93', sans-serif;
-  color: #009FE3; 
-}
-
-.ultimos_comentarios p{
-  text-align: justify;
-  margin-left: 250px;
-  font-size: 30px;  
-  font-family: 'Inter', sans-serif;
-  
-}
-
-.comentarios_otro {
-  width: 1300px;
-  height: 250px;
-  box-shadow: 5px 5px 5px 5px grey;
-  border-radius: 150px;
-  margin-left: 150px;
-  display: flex;
-}
-
-.comentarios_otro h1 {
-  color: #000000;
-  font-size: 60px;  
-  font-family: 'Inter', sans-serif;
-  padding-top: 15px;
-  margin-bottom: 25px;
-  margin-left: 10px;
-}
-.comentarios_otro img {
-padding-top: 10px;
-padding-right: 15px;
-}
-
-.nombre_usuario {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
-
-.comentario_usuario {
-  margin-top: -20px;
-  margin-left: -170px;
-  margin-right: 100px;}
-
-/*FOOTER*/
-footer {
-  background-color: #000000;
-  width: 100%;
-  height: 250px;
-  margin-top: 150px; /*<-------------- revisar espaciado del footer*/
-  margin-bottom: -25px;
-  padding-top: 40px;  
-} 
-.info_footer {
-  justify-content: space-between;
+.txt_1,
+.txt_2,
+.txt_3 {
+  text-align: center;
+  font-family: 'Bauhaus 93', sans-serif;
+  margin: -10px 0 0 0;
+}
+.txt_1 {
+  font-size: 13vw;
+  color: #E94E1A;
+}
+.txt_2 {
+  font-size: 12vw;
+  color: #009FE3;
+}
+.txt_3 {
+  font-size: 11vw;
+  color: #E30613;
+}
+.foro_inicial p {
+  width: 60vw;
+  font-size: 3vw;
+  font-family: 'Inter', sans-serif;
+}
+.foro_inicial img {
+  width: 80vw;
+}
+.comparte_tu_experiencia {
   display: flex;
-  margin-bottom: 0px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
-.idioma {
-  margin-left: 150px;
-  margin-right: 150px;
-  margin-top: 20px;
-  margin-bottom: 0px;
+.comparte_tu_experiencia h1 {
+  font-size: 13vw;
+  font-family: 'Bauhaus 93', sans-serif;
+  color: #E30613;
+  line-height: 12vw;
+  margin-bottom: 20px;
 }
-.contacto {
-  float: right;
-  justify-content: space-between;
+.comparte_tu_experiencia p {
+  width: 70vw;
+  font-size: 3vw;
+  font-family: 'Inter', sans-serif;
+}
+.comentario {
+  background-color: #E30613;
+  width: 100vw;
+  padding: 4vw 12vw;
+}
+.nombre_persona {
+  text-align: left;
+  margin-bottom: 5vw;
+}
+.nombre_persona input {
+  padding-left: 15px;
+  border-radius: 15px;
+  border-color: #FFFFFF;
+}
+.descripcion {
   display: flex;
-  width: 300px;
-  height: 300px;
-  margin-right: 150px;
-  margin-left: 150px;
-  margin-top: 20px;
-  margin-bottom: 0px;
+  justify-content: space-between;
+  text-align: left;
 }
-hr {
-  margin-top: 50px;
-  margin-bottom: 50px;
+.descripcion textarea {
+  padding-left: 15px;
+  border-radius: 15px;
+  width: 60vw;
+  border-color: #FFFFFF;
+}
+.descripcion button {
+  border: none;
+  margin: 0;
+  padding: 0;
+  background-color: #E30613;
+}
+.descripcion img {
+  width: 10vw;
+}
+.ultimos_comentarios {
+  margin: 5vw 10vw;
+}
+.ultimos_comentarios h1 {
+  font-family: 'Bauhaus 93', sans-serif;
+  color: #009FE3;
+  font-size: 8vw;
+}
+.ultimos_comentarios p {
+  font-family: 'Inter', sans-serif;
+  font-size: 3vw;
+}
+.comentarios_otro {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(128, 128, 128);
+  padding: 3vw;
+}
+.comentarios_otro hr {
+  width: 70vw;
+  margin: 2vw;
+}
+.nameAndPhoto {
+  display: flex;
+  align-items: center;
+}
+.nameAndPhoto img {
+  width: 10vw;
+  margin-right: 5vw;
+}
+.comentarios_otro h1 {
+  color: grey;
+  font-family: 'Inter', sans-serif;
+  font-size: 5vw;
+  margin: 0;
+}
+.comentarios_otro p { 
+  text-align: justify;
+  margin: 0; 
+}
+@media screen and (min-width: 570px) {
+  .txt_1 {
+    font-size: 5vw;
+  }
+  .txt_2 {
+    font-size: 4.5vw;
+  }
+  .txt_3 {
+    font-size: 4vw;
+    margin-top: -4px;
+  }
+  .foro_inicial p {
+    width: 40vw;
+    font-size: 1.5vw;
+  }
+  .foro_inicial img {
+    width: 40vw;
+  }
+  .comparte_tu_experiencia h1 {
+    font-size: 5vw;
+    margin: 0;
+  }
+  .comparte_tu_experiencia p {
+    font-size: 1.5vw;
+    width: 40vw;
+  }
+  .comentario {
+    margin: 5vw 0;
+    padding: 4vw 20vw;
+  }
+  .nombre_persona {
+    margin: 1vw 0;
+  }
+  .nombre_persona input {
+    width: 15vw;
+    font-size: 1.5vw;
+  }
+  .descripcion textarea {    
+    width: 40vw;
+    font-size: 1.5vw;    
+  }
+  .descripcion img {
+    width: 5vw;
+    margin-right: 5vw;
+  }
+  .ultimos_comentarios h1 {
+    font-size: 5vw;
+  }
+  .ultimos_comentarios p {   
+    font-size: 1.5vw;
+  }
+  .nameAndPhoto img {
+    width: 6vw;
+  }
+  .comentarios_otro {
+    margin: auto;
+    width: 60vw;
+    padding: 2vw;
+  }
+  .comentarios_otro hr {
+    width: 50vw;
+    margin: 2vw;
+  }
+  .comentarios_otro h1{
+    font-size: 3vw;
+  }
+
 }

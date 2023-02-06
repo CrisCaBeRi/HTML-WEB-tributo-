@@ -1,135 +1,225 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="stylesheet" href="/Css/stylesfox.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/Css/index.css" />
+    <link rel="stylesheet" href="/Css/styleSuspensions.css" />
+
     <title>Fox</title>
-	<link rel="icon" type="image/x-icon" href="/img/WIBlogo.png">
-</head>
+    <link rel="icon" type="image/x-icon" href="/img/WIBlogo.png" />
+  </head>
 
-<body>
-
+  <body>
     <header>
-        <div id="header">
-			<div class="botones_inicio">
-				<button class="btn1"> <a href="/index.html"><div class = txt_btn1>Inicio</div> </a></button>
+      <img src="/img/WIBlogo.png" alt="Logo Image" />
 
-				<div class="dropdown">
-					<button class = "btn2"><div class = txt_btn2>Suspensiones</div></button>
-					<div class="dropdown-content">
-						<div class=" desplegable_1"><a href="/suntour.html"><div class="txt_desplegable1">Suntour</div></a></div>
-						<div class=" desplegable_2"><a href="/fox.html"><div class="txt_desplegable2">Fox</div></a></div>
-						<div class=" desplegable_3"><a href="/rockshox.html"><div class="txt_desplegable3">Rock Shox</div></a></div>					
-					</div>
-				</div>
-				<button class="btn3"> <a href="/foro.html"><div class = txt_btn3>Foro</div> </a></button>	
-			</div>
-			<div class="imagen_logo"><img src="/img/WIBlogo.png" alt="" width="270px" ></div>			
-		</div>
+      <div class="botones_inicio">
+        <button class="btn1">
+          <a href="/index.html"> <p>Inicio</p> </a>
+        </button>
+        <div class="dropdown">
+          <button class="btn2">
+            <p>Suspensiones</p>
+          </button>
+          <div class="dropdown-content">
+            <div class="desplegable_1">
+              <a href="/fox.html"> <p>Fox</p> </a>
+            </div>
+            <div class="desplegable_2">
+              <a href="/suntour.html"> <p>Suntour</p></a>
+            </div>
+            <div class="desplegable_3">
+              <a href="/rockshox.html"> <p>Rock Shox</p></a>
+            </div>
+          </div>
+        </div>
+        <button class="btn3">
+          <a href="/foro.html"><p>Foro</p></a>
+        </button>
+      </div>
     </header>
 
-<hr>
+    <hr />
 
-<section class="carrusel"> 
-	<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-		<div class="carousel-indicators">
-		  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-		  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-		  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>		  
-		</div>
-		<div class="carousel-inner">
-		  <div class="carousel-item active">
-			<img src="/img/FOX1.png" width="100%" height="800px" class="d-block" alt="...">			
-		  </div>
-		  <div class="carousel-item">
-			<img src="/img/FOX2.png" width="100%" height="800px" class="d-block " alt="...">
-		  </div>
-		  <div class="carousel-item">
-				<img src="/img/FOX3.png" width="100%" height="800px" class="d-block" alt="...">					
-			</div>
-				
-		</div>
-	</div>	
+    <section class="carrusel">
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="false"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/img/FOX1.png" width="100%" class="d-block" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="/img/FOX2.png" width="100%" class="d-block" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="/img/FOX3.png" width="100%" class="d-block" alt="..." />
+          </div>
+        </div>
+      </div>
 
-	<div class="textocarrusel">
-		<img src="/img/logo fox.png" alt="" class="superiorfox" width="50%">
-		<h1>32 Step-Cast</h1>
-		<p>La forma pionera de la parte inferior de la pierna de 32 Step-Cast no es solo estética, su postura estrecha y su diseño escalonado ahorran peso, reducen el área frontal y brindan espacio para los radios y el rotor del freno.</p>
-		<img src="/img/iconos_superiorFOX.png" alt="" class="iconosfox" width="90%">
-	</div>	
-</section>
+      <div class="textocarrusel">
+        <img src="/img/logo fox.png" />
+        <h1 style="color: rgb(233, 78, 26)">32 Step-Cast</h1>
+        <p>
+          La forma pionera de la parte inferior de la pierna de 32 Step-Cast no
+          es solo estética, su postura estrecha y su diseño escalonado ahorran
+          peso, reducen el área frontal y brindan espacio para los radios y el
+          rotor del freno.
+        </p>
+        <img src="/img/iconos_superiorFOX.png" />
+      </div>
+    </section>
 
-<hr>
+    <hr />
 
-<section class="tecnologias_fox">
-	<div class="textos_fox">
-		<h1>Tecnología</h1>
+    <section class="tecnologias">
+      <div class="tecnologias_textos">
+        <h1 style="color: rgb(233, 78, 26)">Tecnología</h1>
 
-		<h2>FIT 4</h2>
-		<p>El cartucho cerrado FIT4 proporciona tres posiciones de amortiguación de compresión sobre la marcha: abierta, media y firme, para adaptarse a las diferentes condiciones del sendero.</p>
+        <h2>FIT 4</h2>
+        <p>
+          El cartucho cerrado FIT4 proporciona tres posiciones de amortiguación
+          de compresión sobre la marcha: abierta, media y firme, para adaptarse
+          a las diferentes condiciones del sendero.
+        </p>
 
-		<h2>KASHIMA COAT</h2>
-		<p>Anodizado desarrollado que logra retrasar la corrosión del material anodizado, aumentar la resistencia al desgaste y reducir la resistencia al rozamiento.</p>
+        <h2>KASHIMA COAT</h2>
+        <p>
+          Anodizado desarrollado que logra retrasar la corrosión del material
+          anodizado, aumentar la resistencia al desgaste y reducir la
+          resistencia al rozamiento.
+        </p>
 
-		<h2>FLOAT EVOL</h2>
-		<p>Combinación de la cámara de aire negativa más grande (EVOL, Extra Volume) con la tecnología Float de muelles neumáticos que ecualizan las cámaras de aire positiva y negativa de forma automática.</p>		
-			
-		<h2>BOOST SYSTEM KABOLT</h2>
-		<p>Sistema de eje pasante con compatibilidad de 15m X 110 y 15 X 100 en ruedas 27.5 y 29”. </p>
-	</div>
+        <h2>FLOAT EVOL</h2>
+        <p>
+          Combinación de la cámara de aire negativa más grande (EVOL, Extra
+          Volume) con la tecnología Float de muelles neumáticos que ecualizan
+          las cámaras de aire positiva y negativa de forma automática.
+        </p>
 
-	<img src="/img/iconos_tecnologíaFOX.png" alt="imagen fox parte de abajo" height="1100px" >
-</section>
+        <h2>BOOST SYSTEM KABOLT</h2>
+        <p>
+          Sistema de eje pasante con compatibilidad de 15m X 110 y 15 X 100 en
+          ruedas 27.5 y 29”.
+        </p>
+      </div>
 
-<hr>
+      <img
+        src="/img/iconos_tecnologíaFOX.png"
+        alt="imagen fox parte de abajo"
+      />
+    </section>
 
-<section class="precios">
-	<div class="precio_desde_fox">
+    <hr />
 
-		<div class="texto_desde">
-			<h1>Desde</h1>
-			<h2>797,19€</h2>
-			<img src="/img/bandera-colombia.jpg" alt="" width="65px">
-			<h2>COP | 3.500.000</h2>
-			<p>Modelos 2022<br>Fox 32 Step - Cast<br> Factory FIT4</p>
-		</div>
-	</div>
+    <section class="precios">
+      <div class="precios_logo">
+        <h1 style="color: rgb(233, 78, 26)">Precios</h1>
+        <img src="/img/Precio FOX.png" alt="" />
+      </div>
 
-	<img src="/img/flechas FOX.png" alt="" class="imagen_precios" width="300px" height="200px">
+      <div class="prices-comparative">
+        <div class="card">
+          <div class="card_text">
+            <h1 style="background-color: rgb(233, 78, 26)">Desde</h1>
+            <h2>797,19€</h2>
+            <img src="/img/bandera-colombia.jpg" alt="" width="40px" />
+            <h2>COP | 3.500.000</h2>
+            <p>
+              Modelos 2022<br />Fox 32 Step - Cast<br />
+              Factory FIT4
+            </p>
+          </div>
+        </div>
 
-	<div class="precio_hasta_suntour">
-		<div class="texto_hasta">
-			<h1>Hasta</h1>
-			<h2>1.437,60€</h2>
-			<img src="/img/bandera-colombia.jpg" alt="" width="65px">
-			<h2>COP | 6.311.682</h2>
-			<p>Modelos 2023 <br> Horquilla Fox 32 Step-<br>Cast Factory 100mm</p>
-		</div>
-	</div>
-	<div class="precios_logo">
-		<h1>Precios</h1>
-		<img src="/img/Precio FOX.png" alt="">
-	</div>
-</section>
+        <img src="/img/flechas FOX.png" alt="" class="imagen_precios" />
 
-<footer>
-	<div class="info_footer">
-		<div class="idioma"> <img src="/img/footer lenguaje.png" alt="" width="300px" height="" class="bandera"></div>
-		<div class="img_desarrollador"> <img src="/img/footer marca.png" alt="" width="400px"></div>
+        <div class="card">
+          <div class="card_text">
+            <h1 style="background-color: rgb(233, 78, 26)">Hasta</h1>
+            <h2>1.437,60€</h2>
+            <img src="/img/bandera-colombia.jpg" alt="" width="40px" />
+            <h2>COP | 6.311.682</h2>
+            <p>
+              Modelos 2023 <br />
+              Horquilla Fox 32 Step-<br />Cast Factory 100mm
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-		<div class="contacto">
-			<a href="https://www.facebook.com/cbetancourtrincon1"><img src="/img/footer contacto.png" alt="" width="100px" height="80px"></a>
-			<a href="https://github.com/CrisCaBeRi"><img src="/img/footer contacto 1.png" alt="" width="100px" height="80px"></a>
-			<a href="https://api.whatsapp.com/send?phone=573123679015&text=Hola, ví tu página web y me interesan tus servicios de desarrollador."><img src="/img/footer contacto 2.png" alt="" width="100px" height="80px"></a>			
-		</div>
-	</div>
-</footer>
-</body>
+    <footer>
+      <div class="info_footer">
+        <div class="container_imgA">
+          <img src="/img/footer lenguaje.png" class="bandera" />
+        </div>
+
+        <div class="container_imgB">
+          <img src="/img/footer marca.png" alt="" />
+        </div>
+
+        <div class="contacto">
+          <a href="https://www.facebook.com/cbetancourtrincon1"
+            ><img src="/img/footer contacto.png" alt=""
+          /></a>
+          <a href="https://github.com/CrisCaBeRi"
+            ><img src="/img/footer contacto 1.png" alt=""
+          /></a>
+          <a
+            href="https://api.whatsapp.com/send?phone=573123679015&text=Hola, ví tu página web y me interesan tus servicios de desarrollador."
+            ><img src="/img/footer contacto 2.png" alt=""
+          /></a>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-
+<script
+  src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+  integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+  integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+  crossorigin="anonymous"
+></script>
